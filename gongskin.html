@@ -1,0 +1,799 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GONGSKIN</title>
+
+    <link rel="stylesheet" href="css/reset.css" type="text/css">
+    <link rel="stylesheet" href="css/pc.css" type="text/css">
+    <link rel="stylesheet" href="css/tab.css" type="text/css">
+    <link rel="stylesheet" href="css/mo.css" type="text/css">
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/swiper-bundle.css" type="text/css">
+
+    <script src="js/jquery-3.6.1.min.js"></script>
+    <script src="js/layout.js"></script>
+
+
+</head>
+<body>
+    <div id="wrap">
+
+        <!-- tab_menu -->
+        <div class="tab_menu">
+
+            <div class="tab_menu_wrap">
+
+                <div class="tab_main">
+
+                    <form method="get">
+                        <button type="submit" class="tab_search"><img src="img/tab_search.png" alt="search02"></button>
+                        <input type="text" class="tab_search_get">
+                    </form>
+
+                    <div class="tab_line"></div>
+
+                    <div class="shopping"><img src="img/shoppingbag.png" alt="shoppingbag"><a href="#">장바구니</a></div>
+                    <div class="tab_mypage"><img src="img/tab_mypage.png" alt="tab_mypage"><a href="#">마이페이지</a></div>
+
+                </div>
+
+
+                <div class="tab_sub">
+
+                    <div class="tab_line02"></div>
+
+                    <ul class="tab_con">
+
+                        <li><a href="#">제품소개</a></li>
+                        <li><a href="#">고객센터</a></li>
+                        <li><a href="#">로그인/회원가입</a></li>
+                        <li><a href="#">주문조회</a></li>
+
+                    </ul>
+
+                </div>
+
+
+            </div>
+
+
+            <div class="tab_close"><img src="img/tab_close.png" alt="tab_close"></div>
+
+        </div>
+
+
+        <!-- search -->
+        <div class="search_menu">
+
+            <div class="search_menu_wrap">
+
+
+                <form method="get">
+                    <button type="submit" class="search02"><img src="img/search02.png" alt="search02"></button>
+                    <input type="text" class="search_get">
+                </form>
+
+                <div class="search_line"></div>
+
+                <div class="search_close">
+                    <img src="img/close.png" alt="close">
+                </div>
+
+            </div>    
+
+        </div>
+
+        <!-- front_animation -->
+
+        <div class="background"></div>
+
+        <div class="front_animation">
+
+            <img src="img/front_animation.png" alt="front_animation">
+
+        </div>
+
+        <!-- header -->
+        <header>
+
+            <div class="logo">
+
+                <a href="#"><img src="img/logo01.png" alt="gongskin_logo"></a>
+
+            </div>
+
+            <div class="header01">
+
+                <ul class="menu_wrap">
+
+                    <li><a href="#">제품소개</a></li>
+                    <li><a href="#">고객센터</a></li>
+                    <li><a href="#">로그인/회원가입</a></li>
+                    <li><a href="#">주문조희</a></li>
+
+                </ul>
+
+                <ul class="mypage_wrap">
+
+                    <li class="search"><img src="img/search.png" alt="search"></li>
+                    <li><a href="#"><img src="img/basket.png" alt="basket"></a></li>
+                    <li><a href="#"><img src="img/mypage.png" alt="mypage"></a></li>
+
+                </ul>
+
+
+                <!-- tab_menu -->
+
+                <div class="tab">
+
+                    <img src="img/tab.png" alt="tab">
+
+                </div>
+
+            </div>
+
+            
+
+        </header>
+
+        <!--main_banner -->
+        <div class="slider">
+
+            <div class="arrow">
+
+                <div class="left"><img src="img/left.png" alt="left"></div>
+
+                <div class="text"><span>1</span>/3</div>
+
+                <div class="right"><img src="img/right.png" alt="right"></div>
+
+            </div>
+
+
+            <ul>
+
+                <li><img src="img/banner01.png" alt="banner01"></li>
+                <li><img src="img/banner02.png" alt="banner02"></li>
+                <li><img src="img/banner03.png" alt="banner03"></li>
+
+            </ul>
+
+        </div>
+
+        <!-- mo_banner -->
+        <!-- Swiper -->
+        <div class="mo_swiper">
+
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="img/banner01.png" alt=""></div>
+                <div class="swiper-slide"><img src="img/banner02.png" alt=""></div>
+                <div class="swiper-slide"><img src="img/banner03.png" alt=""></div>
+                
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+
+        </div>
+
+        <!-- Swiper JS -->
+        <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+        <!-- Initialize Swiper -->
+        <script>
+            var swiper = new Swiper(".mySwiper", {
+            pagination: {
+                el: ".swiper-pagination",
+                type: "fraction",
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            });
+        </script>
+
+
+        <!-- section01 -->
+        <section class="sec01">
+            
+
+            <div class="circle_animation" id="circle_ani01">
+
+                <div class="line"></div>
+                <div class="circle" id="cir01"></div>
+                <div class="circle" id="cir02"></div>
+
+            </div>
+
+            <div class="circle_animation" id="circle_ani02">
+
+                <div class="line"></div>
+                <div class="circle" id="cir03"></div>
+                <div class="circle" id="cir04"></div>
+
+            </div>
+
+
+            <div class="product">
+
+                <p>PRODUCT</p>
+
+
+                <div class="con_wrap">
+
+                    <a href="#">
+
+                        <div class="con" id="con01">
+
+                        
+                            <img src="img/product01.png" alt="product01">
+                            <h3>마카오 향수</h3>
+                                    
+                                    
+                        </div>
+
+                    </a>
+
+
+                    <a href="#">
+
+                        <div class="con" id="con02">
+
+                            <img src="img/product02.png" alt="product02">
+                            <h3>퍼퓸 핸드 크림</h3>
+                                    
+                        </div>
+
+                    </a>
+
+
+                    <a href="#">
+
+                        <div class="con" id="con03">
+
+                            <img src="img/product03.png" alt="product03">
+                            <h3>스킨케어 올인원</h3>
+                                    
+                        </div>
+
+                    </a>
+
+
+                </div>
+
+
+            </div>
+
+               
+
+          
+
+
+        </section>
+
+
+        <!-- section02 -->
+        <section class="sec02">
+
+            <div class="sec02_img">
+                <h1>2022 고객감동 우수브랜드 대상 1위</h1>
+                <img src="img/sec02_img.png" alt="sec02_img">
+            </div>
+
+        </section>
+
+
+        <!-- section03 -->
+        <section class="sec03">
+
+            <video autoplay muted loop width="900px" height="600px">
+
+                <source src="video/video.mp4">
+
+            </video>
+
+        </section>
+
+
+        <!-- section04 -->
+        <section class="sec04">
+
+            <h1>MORE PRODUCT</h1>
+
+            <div class="care_wrap">
+
+
+                <div class="care">
+
+                    <h2>탈모케어</h2>
+
+
+                    <ul class="arrow02">
+
+                        <li class="left02"><img src="img/left02.png" alt="left02"></li>
+        
+                        <li class="right02"><img src="img/right02.png" alt="right02"></li>
+        
+                    </ul>
+
+                    <div class="care01">
+
+                        <div class="care_product">
+
+                            <a href="#">
+
+                                <img src="img/care01_01.png" alt="care01_01">
+
+                                <p>공스킨 백업 탈모샴푸</p>
+                                <h4>34,000원</h4>
+
+                            </a>
+                        </div>
+
+                     
+                        <div class="care_product">
+
+                            <a href="#">
+
+                                <img src="img/care01_02.png" alt="care01_02">
+
+                                <p>공스킨 백업 탈모앰플</p>
+                                <h4>39,000원</h4>
+
+                            </a>
+                        </div>
+
+                     
+                        <div class="care_product">
+
+                            <a href="#">
+
+                                <img src="img/care01_03.png" alt="care01_03">
+
+                                <p>공스킨 백업 탈모 트리트먼트</p>
+                                <h4>35,000원</h4>
+
+                            </a>
+                        </div>
+
+                     
+                        <div class="care_product">
+
+                            <a href="#">
+
+                                <img src="img/care01_04.png" alt="care01_04">
+
+                                <p>공스킨 백업 헤어 탈모토닉</p>
+                                <h4>35,000원</h4>
+
+                            </a>
+                        </div>
+
+                    
+                    </div>
+
+                    
+
+                        
+                </div>
+
+
+                <div class="care">
+
+                    <h2>스킨케어</h2>
+
+                    <ul class="arrow02">
+
+                        <li class="left03"><img src="img/left02.png" alt="left02"></li>
+        
+                        <li class="right03"><img src="img/right02.png" alt="right02"></li>
+        
+                    </ul>
+
+                    <div class="care02">
+
+                        <div class="care_product">
+
+                            <a href="#">
+
+                                <img src="img/care02_01.png" alt="care02_01">
+
+                                <p>미스터리 투명비누(모낭충 제거)</p>
+                                <h4>19,000원</h4>
+
+                            </a>
+                        </div>
+
+                     
+                        <div class="care_product">
+
+                            <a href="#">
+
+                                <img src="img/care02_02.png" alt="care02_02">
+
+                                <p>공스킨 우롱차 퍼퓸 핸드크림</p>
+                                <h4>35,000원</h4>
+
+                            </a>
+
+                        </div>
+
+                     
+                        <div class="care_product">
+
+                            <a href="#">
+
+                                <img src="img/care02_03.png" alt="care02_03">
+
+                                <p>공스킨 옴므 미라클 올인원</p>
+                                <h4>45,000원</h4>
+
+                            </a>
+                        </div>
+
+                     
+                        <div class="care_product">
+
+                            <a href="#">
+
+                                <img src="img/care01_04.png" alt="care01_04">
+
+                                <p>공스킨 비타민 올인원 로션</p>
+                                <h4>45,000원</h4>
+
+                            </a>
+                            
+                        </div>
+
+
+                        <div class="care_product">
+
+                            <a href="#">
+
+                                <img src="img/care02_05.png" alt="care02_05">
+
+                                <p>공스킨 비타민 올인원 로션(사은품 증정)</p>
+                                <h4>45,000원</h4>
+
+                            </a>
+
+                        </div>
+
+
+                        <div class="care_product">
+                            
+                            <a href="#">
+
+                                <img src="img/care02_06.png" alt="care02_06">
+
+                                <p>모낭충 투명 비누</p>
+                                <h4>19,000원</h4>
+
+                            </a>
+
+                        </div>
+
+                    
+                    </div>
+
+
+                    
+                        
+                </div>
+
+
+                <div class="care">
+
+                    <h2>향수</h2>
+                    
+
+                    <div class="care03">
+
+                        <div class="care_product">
+
+                            <a href="#">
+
+                                <img src="img/care03_01.png" alt="care03_01">
+
+                                <p>공스킨 마카오 우롱차 향수</p>
+                                <h4>57,000원</h4>
+
+                            </a>
+
+                        </div>
+
+                     
+                        <div class="care_product">
+
+                            <a href="#">
+
+                                <img src="img/care03_02.png" alt="care03_02">
+
+                                <p>공스킨 몰디브 모히또 향수</p>
+                                <h4>57,000원</h4>
+                            
+                            </a>
+
+                        </div>
+
+                    
+                    </div>
+                        
+                </div>
+
+
+            </div>
+
+
+
+
+            <!-- mo_care -->
+            <div class="mo_care_wrap">
+
+
+                <div class="mo_care">
+
+                    <h2>탈모케어</h2>
+
+
+                    <div class="mo_care01">
+
+                        <div class="mo_care_product">
+
+                            <a href="#">
+
+                                <img src="img/mo_care01_01.png" alt="care01_01">
+
+                                <p>공스킨 백업 탈모샴푸</p>
+                                <h4>34,000원</h4>
+
+                            </a>
+                        </div>
+
+                     
+                        <div class="mo_care_product">
+
+                            <a href="#">
+
+                                <img src="img/mo_care01_02.png" alt="care01_02">
+
+                                <p>공스킨 백업 탈모앰플</p>
+                                <h4>39,000원</h4>
+
+                            </a>
+                        </div>
+
+                     
+                        <div class="mo_care_product">
+
+                            <a href="#">
+
+                                <img src="img/mo_care01_03.png" alt="care01_03">
+
+                                <p>공스킨 백업 탈모 트리트먼트</p>
+                                <h4>35,000원</h4>
+
+                            </a>
+                        </div>
+
+                     
+                        <div class="mo_care_product">
+
+                            <a href="#">
+
+                                <img src="img/mo_care01_04.png" alt="care01_04">
+
+                                <p>공스킨 백업 헤어 탈모토닉</p>
+                                <h4>35,000원</h4>
+
+                            </a>
+                        </div>
+
+                    
+                    </div>
+
+                    
+
+                        
+                </div>
+
+
+                <div class="mo_care">
+
+                    <h2>스킨케어</h2>
+
+                    <div class="mo_care02">
+
+                        <div class="mo_care_product">
+
+                            <a href="#">
+
+                                <img src="img/care02_01.png" alt="care02_01">
+
+                                <p>미스터리 투명비누(모낭충 제거)</p>
+                                <h4>19,000원</h4>
+
+                            </a>
+                        </div>
+
+                     
+                        <div class="mo_care_product">
+
+                            <a href="#">
+
+                                <img src="img/care02_02.png" alt="care02_02">
+
+                                <p>공스킨 우롱차 퍼퓸 핸드크림</p>
+                                <h4>35,000원</h4>
+
+                            </a>
+
+                        </div>
+
+                     
+                        <div class="mo_care_product">
+
+                            <a href="#">
+
+                                <img src="img/care02_03.png" alt="care02_03">
+
+                                <p>공스킨 옴므 미라클 올인원</p>
+                                <h4>45,000원</h4>
+
+                            </a>
+                        </div>
+
+                     
+                        <div class="mo_care_product">
+
+                            <a href="#">
+
+                                <img src="img/care01_04.png" alt="care01_04">
+
+                                <p>공스킨 비타민 올인원 로션</p>
+                                <h4>45,000원</h4>
+
+                            </a>
+                            
+                        </div>
+
+
+                        <div class="mo_care_product">
+
+                            <a href="#">
+
+                                <img src="img/care02_05.png" alt="care02_05">
+
+                                <p>공스킨 비타민 올인원 로션(사은품 증정)</p>
+                                <h4>45,000원</h4>
+
+                            </a>
+
+                        </div>
+
+
+                        <div class="mo_care_product">
+                            
+                            <a href="#">
+
+                                <img src="img/care02_06.png" alt="care02_06">
+
+                                <p>모낭충 투명 비누</p>
+                                <h4>19,000원</h4>
+
+                            </a>
+
+                        </div>
+
+                    
+                    </div>
+
+
+                    
+                        
+                </div>
+
+
+                <div class="mo_care">
+
+                    <h2>향수</h2>
+                    
+
+                    <div class="mo_care03">
+
+                        <div class="mo_care_product">
+
+                            <a href="#">
+
+                                <img src="img/care03_01.png" alt="care03_01">
+
+                                <p>공스킨 마카오 우롱차 향수</p>
+                                <h4>57,000원</h4>
+
+                            </a>
+
+                        </div>
+
+                     
+                        <div class="mo_care_product">
+
+                            <a href="#">
+
+                                <img src="img/care03_02.png" alt="care03_02">
+
+                                <p>공스킨 몰디브 모히또 향수</p>
+                                <h4>57,000원</h4>
+                            
+                            </a>
+
+                        </div>
+
+                    
+                    </div>
+                        
+                </div>
+
+
+            </div>
+
+
+
+
+
+        </section>
+
+
+        <!-- footer -->
+        <footer>
+
+            <div class="footer_wrap">
+
+                <div class="fo01">
+
+                    <a href="#"><h2>GONGSKIN</h2></a>
+                    <P>제휴 및 수출문의: 1544-5960</P>
+
+                    <a href="#"><img src="img/notice.png" alt="notice"></a>
+
+                </div>    
+
+                <div class="fo02">
+
+                    <p>COMPANY: 주식회사제이에이치와이그룹   OWNER: 최정우   CALL: 1544-5960</p>
+                    <p>ADDRESS: 06649 서울특별시 서초구 서초동 1562-6 B01   BUSINESS LICENSE: 730-85-01145[사업자정보확인]</p>
+                    <p>ONLINE ORDER LICENSE: 제 2019-서울서초-2573호   DIRECTORS: 김형균, 최용찬</p>
+                    <p>HOSTING: CAFE24 CORP   PG ESCROW: KG INISIS</p>
+                    <p>Copyright 공스킨. All rights reserved.</p>
+
+
+                </div>
+
+                <div class="fo03">
+
+                    <a href="#"><img src="img/logo02.png" alt="logo02"></a>
+
+                    <p><a href="#">AGREEMENT</a>          <a href="#">PRIVACY POLICY</a></p>
+
+                </div>
+
+
+            </div>
+
+
+        </footer>
+
+        <!-- top_btn -->
+        <div class="top_btn">TOP</div>
+
+
+    </div>
+</body>
+</html>
