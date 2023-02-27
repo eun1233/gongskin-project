@@ -72,32 +72,6 @@
 
 
 
-    /* front_animation */
-    .front_animation{
-        width: 100%;
-        height: 100%;
-        position: fixed;
-        top: 0;
-        left: -100vw;
-        z-index: 9999;
-       
-    }
-
-    .background{
-        width: 100%;
-        height: 100%;
-        background-color: #fff;
-        position: absolute;
-        top: 0;
-        left: 0;
-        z-index: 999;
-       
-    }
-
-    .front_animation img{
-        width: 100vw;
-        height: 100%;
-    }
 
     /* header */
     header{
@@ -180,7 +154,7 @@
     .arrow{
         width: 170px;
         position: absolute;
-        bottom: 45px;
+        bottom: 60px;
         left: 15px;
         display: flex;
         justify-content: space-around;

@@ -152,41 +152,12 @@
     }
 
 
-
-
-
     /* search */
     .search_menu{
         display: none;
     }
 
-    /* front_animation */
-    .front_animation{
-        width: 100%;
-        height: 100%;
-        position: absolute;
-        top: 0;
-        left: -100vw;
-        z-index: 9999;
-        display: none;
-       
-    }
 
-    .background{
-        width: 100%;
-        height: 100%;
-        background-color: #fff;
-        position: absolute;
-        top: 0;
-        left: 0;
-        z-index: 999;
-        display: none;
-    }
-
-    .front_animation img{
-        width: 100vw;
-        height: 100%;
-    }
 
     /* header */
     header{
@@ -858,11 +829,14 @@
         width: 85.526vw;
         /* 650 */
         margin: 0 auto;
-        
+        margin-bottom: 13.157vw;
+        /* 100 */
        
     }
 
     .mo_care h2{
+        font-size: 3.157vw;
+        /* 24 */
         margin: 6.578vw 0;
         /* 50 */
         margin-bottom: 3.947vw;
@@ -871,13 +845,13 @@
     }
 
     .mo_care01{
-        height: 111.842vw;
-        /* 850 */
+        height: 118.421vw;
+        /* 900 */
     }
 
     .mo_care02{
-        height: 168.421vw;
-        /* 1280 */
+        height: 173.684vw;
+        /* 1320 */
     }
 
     .mo_care03{
@@ -936,6 +910,8 @@
 
     
     .mo_care_product p{
+        width: 39.473vw;
+        /* 300 */
         font-size: 2.105vw;
         /* 16 */
     }

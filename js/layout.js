@@ -46,19 +46,6 @@ $(document).ready(function(){
 
 
 
-    // front_animation
-    $('.front_animation').animate({
-
-        left: 0,
-
-    },1000,function(){
-
-        $('.front_animation').fadeOut(1000);
-        $('.background').fadeOut(1000);
-        
-    });
-
-
 
     // main_banner
     var sc = $('.slider ul li').length;
