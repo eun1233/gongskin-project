@@ -154,7 +154,7 @@
     .arrow{
         width: 170px;
         position: absolute;
-        bottom: 60px;
+        bottom: 80px;
         left: 15px;
         display: flex;
         justify-content: space-around;
